@@ -1,0 +1,78 @@
+
+.card {
+  float:left;
+  width: 150px;                 /* Set width of cards */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  border: 1px solid black;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  margin: 15px; 
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.6);                 /* Add space between cards */
+}
+
+.card-header  {
+  color:#24eba1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #EF9A9A;
+  background-color: #1b1b1b;
+  padding: 5px 10px;
+}
+.card-header  a{
+  color:#24eba1;
+  text-decoration: none;
+}
+.card-header  a:hover{
+  color:#03c2fc;
+}
+.card-main {
+  display: flex;              /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (on cross axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+}
+.card-main img{
+  width:80;
+  height:80;
+}
+
+.material-icons {
+  font-size: 36px;
+  color: #D32F2F;
+  margin-bottom: 5px;
+}
+
+.main-description {
+  color: #D32F2F;
+  font-size: 12px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+input[type="submit"]{
+  text-align: center;
+  width:60px;
+  height:40px;
+  background:#398768;
+  color:white;
+}
+input[type="submit"]:hover{
+background: #384986;
+  color:white;
+  }
+.form-control option {
+  padding: 10px;
+}

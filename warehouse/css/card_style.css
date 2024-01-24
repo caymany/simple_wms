@@ -1,0 +1,106 @@
+/*Login Page Styling*/
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.lcard{
+    margin-left: 600px;
+    margin-top: 20px;
+
+}
+form {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 15px;
+      background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.9);
+  margin: 0 0 90px solid;
+}
+select {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+  }
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color:green;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+label {
+    color: #999;
+    font-size: 15px;
+    padding: 10px;
+}
+
+button {
+    background: #55e8d5;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+    
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #238899;
+}
+.ca:hover {
+    text-decoration: underline;
+} 
+.card-footer{
+
+    list-style-type:none;
+
+}
+.card-footer a{
+text-decoration: none;
+color:#228899;
+}
